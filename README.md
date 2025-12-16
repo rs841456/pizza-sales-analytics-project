@@ -64,6 +64,47 @@ The dataset contains pizza sales transactions with the following columns:
 
 ---
 
+## 📂 Project Structure
+
+```text
+Pizza_Sales_Analysis/
+│
+├── Images/
+│   ├── dashboard.png
+│   ├── kpi.png
+│   └── sales_trend.png
+│
+├── SQL_Queries/
+│   └── pizza_sales_queries.sql
+│
+├── Dataset/
+│   └── pizza_sales.csv
+│
+├── Dashboard/
+│   └── Pizza_Sales_Dashboard.pbix
+│
+└── README.md
+```
+
+
+---
+
+
+## 📌 Insights Gained
+- Classic and Supreme pizzas generate the highest revenue
+- Medium and Large size pizzas are most popular
+- Few pizzas dominate total sales
+- Low-performing pizzas can be optimized or removed
+---
+
+## 🚀 Future Improvements
+- Advanced Power BI dashboard
+- Time-series forecasting
+- Customer segmentation
+- Python-based automation
+
+---
+
 ## 🧮 Sample SQL Queries
 
 ```sql
@@ -80,5 +121,12 @@ SELECT TOP 5 pizza_name, SUM(total_price) AS Total_Revenue
 FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Revenue DESC;
+
+```
+
+## 👤 Author
+Rajan Shukla
+Aspiring Data Analys
+Skills: SQL | Power BI | Data Analysis
 
 
