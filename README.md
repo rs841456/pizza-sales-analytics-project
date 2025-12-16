@@ -125,8 +125,8 @@ ORDER BY Total_Revenue DESC;
 ```
 
 ## 👤 Author
-Rajan Shukla
-Aspiring Data Analys
+Rajan Kumar,
+Aspiring Data Analys,
 Skills: SQL | Power BI | Data Analysis
 
 
